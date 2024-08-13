@@ -658,6 +658,9 @@ h2 {
         width: 90%;
         margin-bottom: 50px;
     }
+    .cta-buttons{
+        display: flex;
+    }
     .header{
         max-height: 1225px;
         background: linear-gradient(-180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.1) 100%);
@@ -793,10 +796,10 @@ h2 {
         height: 272px;
     }
     .footerClass{
-        height: 1080px;
+        height: 100%;
     }
     .footerContainer{
-        width: 90%;
+        width: 70%;
         flex-direction: column;
         gap: 2rem;
         align-items: left;
